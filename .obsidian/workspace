@@ -4,15 +4,11 @@
     "type": "split",
     "children": [
       {
-        "id": "1bb728582b86a803",
+        "id": "d259c6adf99c872f",
         "type": "leaf",
         "state": {
-          "type": "markdown",
-          "state": {
-            "file": "RemarkableHacks/Document-formatting.md",
-            "mode": "source",
-            "source": false
-          }
+          "type": "empty",
+          "state": {}
         }
       }
     ],
@@ -69,7 +65,6 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "RemarkableHacks/Document-formatting.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -79,17 +74,25 @@
                 "unlinkedCollapsed": true
               }
             }
+          },
+          {
+            "id": "09aa01e9365eb1b9",
+            "type": "leaf",
+            "state": {
+              "type": "git-view",
+              "state": {}
+            }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "horizontal",
-    "width": 300,
-    "collapsed": true
+    "width": 300
   },
-  "active": "1bb728582b86a803",
+  "active": "d259c6adf99c872f",
   "lastOpenFiles": [
-    "RemarkableHacks/Document-formatting.md",
-    "Untitled.md"
+    "Linux/Desktop customization.md",
+    "RemarkableHacks/Document-formatting.md"
   ]
 }
