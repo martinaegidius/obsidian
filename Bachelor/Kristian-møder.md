@@ -3,6 +3,11 @@
 <h2>Vedr. projektbeskrivelsen</h2> 
 <li>Læg vægt på, at der i projektplanen skal indsættes noget f.eks. "examine the possibility of using this type of data with a ViT", i stedet for "implement a ViT"</li>
 <li>Det virker meget ambitiøst, og bør nok nedskaleres</li>
+Kristian kan se det ske, hvis han har enten:
+<ul>
+<li>Datasættet med segmentering også</li>
+<li>Noget boiler-kode som du kan bruge </li>
+</ul>
 
 <h2>Vedr. Gantt-chart</h2>
 <li>Brug dit Gantt-chart til at vise Dimitrios at det er fuldstændigt usandsynligt</li>
