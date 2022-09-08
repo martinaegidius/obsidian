@@ -25,3 +25,5 @@ Meget erfaring
 To timer i starten - første tre uger af projektet er afgrænsning af opgaven, som er specifikke delmål 
 
 Kristian foretrækker online-møder. 
+
+
