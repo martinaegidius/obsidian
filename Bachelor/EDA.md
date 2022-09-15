@@ -20,3 +20,7 @@ Green person (number 3) makes a bit funny looks.
 Statistics 
 Mean image 
 
+resize
+todo: 
+- Check if scaling affects measured eye-pos
+	- Status: scaling does not affect measured eye-positions. Plots cross-compared to Dimitrios implementation, and plots are exactly the same. Scales have probably been fixed on the fly. 

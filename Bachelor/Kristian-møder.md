@@ -18,3 +18,29 @@ Kristian kan se det ske, hvis han har enten:
 <li>Lav relativt hurtigt et groft dokument med samtlige overskrifter for projektet og send til Dimitrios. Så bruger I ikke tid på det du allerede ved, og han ved hvad du har tænkt dig</li>
 <li>T-3 Uger: Send resultatafsnit *SENEST*. Der skal være tid til at kunne lave det hele om</li>
 <li>Send løbende chunks af kapitler. Det er nødvendigt at være på "forkant" med det nemme, således at du igen har tid til resultat-afsnittet. Det er der, hvor det først bliver kompliceret</li>
+
+
+<h1>W2: lidt mere retning</h!>
+![[network-sketch.jpg]]
+
+Det til højre hedder en latent space repræsentation. Den skal du finde.
+
+Opgaver til næste: 
+- Læse videre
+- Vælge to klasser, f.eks. fly og cykel. 
+	- Lav histogrammer over valgte klasse
+	- Undersøg om billederne kommer fra samme fordeling
+	- Find et tal, som kan kvantificere afstanden til den mest gængse fordeling i datasættet
+	- FJERN OUTLIERS (svære billeder)
+	- Definer test-træn-split herefter
+- Implementer center-cropping eller resizing i en fornuftig pipeline, således at den er klar og færdig.
+	- Minimer antallet af "tabte" fikseringspunkter
+
+- Snak med Dimitrios; 
+	- Jeg ser det her som værende muligt hvis og kun hvis
+		- Jeg er doven med latent space repræsentation, og derfor bare vælger en plug-n-play transformer
+	- Han er villig til at sætte lidt tid af til at hjælpe med at designe selve transformer-arkitekturen
+	- Det er et proof-of-concept, dvs. virker ikke for alle instances, men for valgte klasser 
+	- Dvs. projektet handler om, hvorvidt det kan lade sig gøre, og ikke en "færdig" løsning
+	- Evt. senere syntese-projekt 
+
