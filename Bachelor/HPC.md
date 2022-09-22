@@ -1,7 +1,9 @@
 General ipynb-procedure
 https://topfarm.pages.windenergy.dtu.dk/cuttingedge/pywake/pywake_ellipsys/master/exercises.html
 
-1. connect through shell
+
+
+1. connect through shell: ssh hpc
 4. go to interactive node (voltash, sxm2sh, a100sh)
 5. module load python3/3.10.2
 3. source bachelorenv/bin/activate
@@ -12,3 +14,10 @@ https://topfarm.pages.windenergy.dtu.dk/cuttingedge/pywake/pywake_ellipsys/maste
 10. Enter token from jupyter output 
 
 hostname is login-node user 
+
+
+<h3>pip-dependencies</h3>
+"pipreqs ." in folder of script 
+
+
+<h2>Bash-example-file for scheduler</h2>

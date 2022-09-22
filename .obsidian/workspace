@@ -9,7 +9,7 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "Bachelor/Kristian-møder.md",
+            "file": "Bachelor/Formalia.md",
             "mode": "source",
             "source": false
           }
@@ -69,7 +69,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Bachelor/Kristian-møder.md",
+                "file": "Bachelor/Formalia.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -95,14 +95,14 @@
     "direction": "horizontal",
     "width": 300
   },
-  "active": "d259c6adf99c872f",
+  "active": "2cd13bb732479c70",
   "lastOpenFiles": [
-    "Bachelor/EDA.md",
     "Bachelor/HPC.md",
+    "Bachelor/Kristian-møder.md",
+    "Bachelor/EDA.md",
     "Linux/Desktop customization.md",
     "Linux/System problems.md",
     "Nathalie.md",
-    "Bachelor/Kristian-møder.md",
     "Bachelor/Intromøde SPS.md",
     "RemarkableHacks/Document-formatting.md",
     "Bachelor/Python-guy.md",
