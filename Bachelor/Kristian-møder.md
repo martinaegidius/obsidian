@@ -44,3 +44,45 @@ Opgaver til næste:
 	- Dvs. projektet handler om, hvorvidt det kan lade sig gøre, og ikke en "færdig" løsning
 	- Evt. senere syntese-projekt 
 
+
+
+<h1> d. 27/09/2022 </h1>
+Projektplan: nogle steder: for konkret
+Tre overordnede objectives, som skal indgå i rapporten. 
+Objectives er i en artikel det "the goal of this study" etc. 
+Concrete mål-definitioner når rapporten er ved at blive skrevet: "Er min vejleder med på det". 
+
+Der er stor fare for det med at stå i kø i HPC 
+	- Køre dine modeller colab eller interaktivt. 
+	- Check at du kan overfitte groft og at modellen konvergerer
+
+Du kan godt tænke over det helt til sidst - ifht. EDA, flybillede, svært punkt
+Sikrer dig at have de åndssvage billeder i dit testset, ellers kan du ikke se "at de er svære"
+
+Test-træningssplit: 
+	- shuffle meget
+	- 80/20 split - med seeding
+		- Sikrer dig at fordelingerne ser nogenlunde ens ud
+			- Valideringssplit laves tilfældigt under træning 
+
+Baseline-model: 
+	- Kristian synes ikke at det giver vildt meget mening ifht. en reel baseline. Men det er en fin øvelse, formentlig
+	- Den dårligste/mest simple af Dimitrios' modeller 
+	- Spørgsmål til Dimitrios: hvor meget renggører du data? Ellers er det en unfair sammenligning 
+
+
+Tjek: 
+- Normalisering af dataen. Er alle pixel-intensiteter mellem 0 og 255? 
+
+
+To-do: 
+- Inden næste uge:
+	- Sæt låg på dataprocessering nu  
+	- Etabler et seeded, tilfredsstillende test/træningssplit
+	- Tjek at dataen er normaliseret i [0,1] - brug KUN parametre fra træningssæt. Eller [0,255] inden du bruger TIMM.  
+	- Begynd at bygge en simpel transformer - se hvor lang tid den tager at træne!
+	- Begynd at skrive teori-afsnit til transformeren
+	- Hvad er grunden til ikke bare at bruge en vanilla ViT? 
+		- Hvorfor antager du at vi skal bruge en latent-space model? 
+	- Tag tid 
+
