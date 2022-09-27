@@ -37,6 +37,8 @@ log: 04/09/2022: updated ~/.paper2remarkable.yml with config for sourcing rmapi 
 
 If formatting is weird, disable -r (right move) flag by just calling p2r url 
 
+When sending local files, note that -r is NOT enabled. Simply use p2r -r path/to/file for locals. 
+
 <b> Important: May be used for generating pdfs locally with blank page after each page (good for school-assignment work), which then followingly may be converted to notebook-format using pdf2rmnotebook.sh</b>
 
 
