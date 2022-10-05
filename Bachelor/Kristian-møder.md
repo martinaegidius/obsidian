@@ -71,18 +71,44 @@ Baseline-model:
 	- Spørgsmål til Dimitrios: hvor meget renggører du data? Ellers er det en unfair sammenligning 
 
 
+
+
 Tjek: 
 - Normalisering af dataen. Er alle pixel-intensiteter mellem 0 og 255? 
 
 
 To-do: 
 - Inden næste uge:
-	- Sæt låg på dataprocessering nu  
+	- Sæt låg på dataprocessering nu   - gjort 
 	- Etabler et seeded, tilfredsstillende test/træningssplit
-	- Tjek at dataen er normaliseret i [0,1] - brug KUN parametre fra træningssæt. Eller [0,255] inden du bruger TIMM.  
+	- Tjek at dataen er normaliseret i [0,1] - brug KUN parametre fra træningssæt. Eller [0,255] inden du bruger TIMM. 
+
+
+
 	- Begynd at bygge en simpel transformer - se hvor lang tid den tager at træne!
 	- Begynd at skrive teori-afsnit til transformeren
 	- Hvad er grunden til ikke bare at bruge en vanilla ViT? 
 		- Hvorfor antager du at vi skal bruge en latent-space model? 
 	- Tag tid 
 
+Brug _Rbbfix.txt_ som træningssæt og rfix som testsæt
+
+
+Q: Ways to overfit 
+Lille cut af træningsdata 
+Standard decay på LR 
+Kør epoker indtil træningfejl 0 og valideringsfejl uendelig
+
+To-do: 
+	- Lav skelet til rapport
+	- Mindst 30-35 sider 
+		- Kristian foreslår ca. 7 siders teori 
+		- 5(evt. + Siders metode
+		- 10 Siders analyse
+	- Formidling til: dig selv før du begyndte på projektet 
+	- Forstår vision transformer 
+
+D_model: skriv tingene ned med det samme. 
+
+
+Alt + space -> lg -> enter  -> global.context.unsafe_mode = true
