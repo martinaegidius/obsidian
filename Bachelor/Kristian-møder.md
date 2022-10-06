@@ -108,7 +108,9 @@ To-do:
 	- Formidling til: dig selv før du begyndte på projektet 
 	- Forstår vision transformer 
 
-D_model: skriv tingene ned med det samme. 
+D_model: skriv tingene ned med det samme.  
+
+
 
 
 Alt + space -> lg -> enter  -> global.context.unsafe_mode = true
