@@ -1,5 +1,5 @@
+Questions for (x,y)-transformer.
 - D_model in transformer should probably be 2 (number of in-features in transformerencoderlayer)
-
 - n_hidden is gonna be default, probably 2048 (and is the size of the output of the encoding layer!). It is a hyperparameter
 - You must use positional embedding from the paired x-y-points 
 - You should not mask the input (triangular). This would be interesting for predicting "next" fixation, but in your case you want to use all fixations for getting bounding box 
