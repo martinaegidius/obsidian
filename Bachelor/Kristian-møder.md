@@ -111,6 +111,30 @@ To-do:
 D_model: skriv tingene ned med det samme.  
 
 
+Hvordan definerer du et netværk, hvor batch-size går 
+- flatten batch-wise 
+- check om lineaært lag fatter at batchsize er variabel
+
+Activation-function: 
+	- Gå activations igennem. Se om der er mange 0'er 
+	- Check værdierne lige efter laget med aktivering 
+	- Dead-relu? 
+	- hvis ja: 
+		- leaky-relu med bitte alpha-værdi til en start . 0.001, 0.005, 0.01~
+	- Gradient explosion er nok lidt usandsynligt 
+	- Fanget i minimum? 
+	- Learning-rate meget ned samtidigt m. batch-size
+
+- Loss-F: 
+	- Nogle bruger RMSE eller MSE  til bbox i DL (ikke nødvendigvis optimalt, men nemt)
+	- ((sqrt(x_t)- sqrt(x_t))ˆ2 + (sqrt(y_true)- sqrt(y_pred))ˆ2)
+	- YOLO: center, h, w (for bbox)
+		- ((sqrt(xc_t)- sqrt(xc_p))ˆ2 + (sqrt(yc_true)- sqrt(yc_pred))ˆ2)
+		med 
+		 ((sqrt(h_t)- sqrt(h_p))ˆ2 + (sqrt(w_true)- sqrt(w_pred))ˆ2)
+- CrossEntropy er til fordelinger 
+	- Kun med fordelingsfkt. som sidste lag (eller andre tilfælde end det du er i nu)
+
 
 
 Alt + space -> lg -> enter  -> global.context.unsafe_mode = true
