@@ -138,3 +138,44 @@ Activation-function:
 
 
 Alt + space -> lg -> enter  -> global.context.unsafe_mode = true
+
+
+Introduktionsafsnit: 
+- Aim, målafgrænsning
+- Forslag til delafsnit i introduktion: 
+	- Struktur af rapporten afsnit
+	- Aim and or objectives
+		- Aim: sagprosa, objectives er bullets
+		- Objectives er derved en højere opløsning af aim-afgrænsningen
+		- Scope-afsnit (motivation for emnet)
+			- Hvis Dimitrios prøver at løse noget konkret 
+- Afsnit 1.2) er farligt, for det kan godt minde lidt for meget om en tekstbog. 
+	- Ingen undersektioner per trin, mere som en sammenhængende historie. 
+	- Du skal forklare masking i brødteksten, ikke som et underafsnit f.eks. 
+	- Undersektion til elementer/komponenter 
+
+Overvej at smide transformer-teori i et teori-afsnit i stedet for i introduktionen. 
+
+Resultater minder meget om analyse i din rapport. Overvej at slå dem sammen og diskuter resultater i resultatafsnit.   
+
+Diskussion: 
+implikation, applikation, validitet 
+
+
+Retningslinje: 
+- Forside regler 
+- IEEE referenceformat.
+- Forfatter & år når man refererer - det er rarest for folk i feltet. 
+	- (forfatter, år)
+	- "\citep{}"" i overleaf
+	- "masking is when you mask something" (artikel, år)
+	- "As stated in Attention is All You Need" 
+	- Lærebog er cool 
+
+
+Prøv med lavere hidden-dimension
+Få torchsummary af model med tidligere størrelser og se antallet af parametre 
+
+
+
+

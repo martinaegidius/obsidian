@@ -4,16 +4,47 @@
     "type": "split",
     "children": [
       {
-        "id": "d259c6adf99c872f",
-        "type": "leaf",
-        "state": {
-          "type": "markdown",
-          "state": {
-            "file": "Bachelor/Dimitrios meets.md",
-            "mode": "source",
-            "source": false
+        "id": "f4b0188fa6425721",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "d259c6adf99c872f",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Bachelor/Dimitrios meets.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "92b32e577e698811",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Bachelor/Kristian-møder.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "8c3ce9a8a941f38d",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Bachelor/Model parameters.md",
+                "mode": "source",
+                "source": false
+              }
+            }
           }
-        }
+        ],
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -31,7 +62,9 @@
             "type": "leaf",
             "state": {
               "type": "file-explorer",
-              "state": {}
+              "state": {
+                "sortOrder": "alphabetical"
+              }
             }
           },
           {
@@ -69,7 +102,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Bachelor/Dimitrios meets.md",
+                "file": "Bachelor/Model parameters.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -95,17 +128,20 @@
     "direction": "horizontal",
     "width": 300
   },
-  "active": "d259c6adf99c872f",
+  "ribbon": {
+    "mostRecentAction": ""
+  },
+  "active": "8c3ce9a8a941f38d",
   "lastOpenFiles": [
-    "Bachelor/Python-guy.md",
     "Bachelor/Kristian-møder.md",
-    "Bachelor/Intromøde SPS.md",
-    "Bachelor/HPC.md",
-    "Bachelor/Formalia.md",
-    "Bachelor/EDA.md",
-    "Bachelor/Dimitrios meets.md",
-    "Linux/System problems.md",
+    "Bachelor/Model parameters.md",
     "RemarkableHacks/Document-formatting.md",
-    "Pasted image 20220922163758.png"
+    "network-sketch.jpg",
+    "Pasted image 20220922163849.png",
+    "Pasted image 20220922163758.png",
+    "Bachelor/EDA.md",
+    "Bachelor/Python-guy.md",
+    "Bachelor/Intromøde SPS.md",
+    "Bachelor/HPC.md"
   ]
 }
