@@ -37,14 +37,38 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Bachelor/Model parameters.md",
+                "file": "Linux/System problems.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "3a026ef6040848f0",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Linux/System problems.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "216460cc6f29471b",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Linux/Grafix.md",
                 "mode": "source",
                 "source": false
               }
             }
           }
         ],
-        "currentTab": 2
+        "currentTab": 4
       }
     ],
     "direction": "vertical"
@@ -102,7 +126,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Bachelor/Model parameters.md",
+                "file": "Linux/Grafix.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -131,17 +155,17 @@
   "ribbon": {
     "mostRecentAction": ""
   },
-  "active": "8c3ce9a8a941f38d",
+  "active": "216460cc6f29471b",
   "lastOpenFiles": [
-    "Bachelor/Kristian-møder.md",
+    "Linux/System problems.md",
+    "Linux/Wine.md",
     "Bachelor/Model parameters.md",
+    "Bachelor/Kristian-møder.md",
     "RemarkableHacks/Document-formatting.md",
     "network-sketch.jpg",
     "Pasted image 20220922163849.png",
     "Pasted image 20220922163758.png",
     "Bachelor/EDA.md",
-    "Bachelor/Python-guy.md",
-    "Bachelor/Intromøde SPS.md",
-    "Bachelor/HPC.md"
+    "Bachelor/Python-guy.md"
   ]
 }

@@ -8,3 +8,6 @@ Goal: disable ipv6 alltogether for network card.
 
 Update: seems to be working
 
+
+
+
