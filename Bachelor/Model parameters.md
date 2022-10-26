@@ -55,6 +55,13 @@ use test-error
 - later on it would be nice with validation
 
 For debugging positional-encoding: try removing it for one experiment. It should work worse, but not horribly. Thus, you can see if dimensionality breaks the model 
+- Performance appx
+- the same (almost no difference) 
+![[Pasted image 20221024085326.png]]
+^ no pos encoding
+
+Checking all dimensions of model: 
+- 
 
 Plan: 
 - train one model per class. If outputs are same for any input still: 
@@ -68,4 +75,14 @@ Plan:
 - Move on to ViT-extraction 
 
 
+
+
+I think your layernorm is wrong. 
+Solution: 
+BEFORE YOU DO THIS: https://www.youtube.com/watch?v=WpEE26clmqA watch with focus. 
+Right now you have nn.LayerNorm((2,)), which seems to not layernorm but feature-norm
+https://wandb.ai/wandb_fc/LayerNorm/reports/Layer-Normalization-in-Pytorch-With-Examples---VmlldzoxMjk5MTk1
+- Dont use transformerencoderlayer 
+- Instead build multiheadattention and define FFN yourself as two functions 
+- Build a forward-pass through these, where you yourself define the layernorm
 

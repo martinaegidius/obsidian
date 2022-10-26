@@ -179,3 +179,51 @@ Få torchsummary af model med tidligere størrelser og se antallet af parametre
 
 
 
+<h1> Møde d. 26/10/22 </h1> 
+torch.std(norm(x),dim=(1,2)) -> sådan tjekker du om mean af batch er 0 og std er 1 
+Plot lige preds og target oven på overfit-billederne. 
+
+IOU- for "god" detection ofte 0.5-0.7 (i litteraturen)
+
+PAC på 4 billeder atm: 0.47334410339256866: Kristian siger ret dårligt :-) 
+
+Kig på billederne som du overfitter på - og generelt på sættet for fly. Det kan godt være, at flyene som udgangspunkt bare fylder nærmest hele billedet -> nemt at få IOU 
+
+Til at tjekke efter:
+Lille lol-model som infererer box ud fra 1. gennemsnit 2. median-værdi af box-hjørner 
+- Hvis halvdelen af billederne eller flere har box som fylder hele billedet, så vil lol-model få PAC på ca. 0.5 -> og så er din model altså dårligere ligenu 
+- Den af de to lol-modeller, som performer bedst bruger du som "baseline til din baseline" 
+- Husk æbler og æbler 
+
+Cross-validation kan nok ikke undgås :(((( 
+Lille valideringssæt, 10%. K-fold på 10 eller noget i den dur
+- Mest for at tjekke om du overfitter
+- Du har så få samples -> ~generalization
+
+
+Kristians pointer: 
+- Nogle plots (træningsloss, valloss, baseline) (milestones)
+- Forstå træningsklassen 
+- Overleaf: milestone om 2-3 uger. 
+	- Subfiles 
+	- Der har du lavet første del af introduktionen færdig 
+	- Teorien om transformere færdige 
+
+Studieplan: 
+- Earth observation (specialisering)
+- https://www.dtu.dk/english/education/graduate/msc-programmes/earth-and-space-physics-and-engineering/study-lines/earth-observation
+- Send dit fokusområde til Kristian. Send excel-ark med dine SKAL fag
+	- Find kurser både til fordybelse og nogle som er "nemme"
+
+TIL NÆSTE GANG: 
+Fokus: få styr på de andre ting, som generer. 
+- Studieplan 
+- Send til  
+- Skriv til SU
+- Reflektion over "spørgeskemaet"
+- Lette ting i forhold til Bachelor
+	- Plots over dine fire billeder 
+	- Plots over dine ti billeder
+	- Baseline til baseline model
+	- Evt. begynd at skriv på afsnittet med metode 
+- 

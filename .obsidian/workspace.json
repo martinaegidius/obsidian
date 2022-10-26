@@ -61,7 +61,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Linux/Grafix.md",
+                "file": "Bachelor/Kristian-møder.md",
                 "mode": "source",
                 "source": false
               }
@@ -126,7 +126,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Linux/Grafix.md",
+                "file": "Bachelor/Kristian-møder.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -157,15 +157,15 @@
   },
   "active": "216460cc6f29471b",
   "lastOpenFiles": [
+    "Bachelor/Model parameters.md",
+    "Bachelor/Dimitrios meets.md",
+    "Bachelor/Kristian-møder.md",
+    "Linux/Grafix.md",
     "Linux/System problems.md",
     "Linux/Wine.md",
-    "Bachelor/Model parameters.md",
-    "Bachelor/Kristian-møder.md",
     "RemarkableHacks/Document-formatting.md",
     "network-sketch.jpg",
     "Pasted image 20220922163849.png",
-    "Pasted image 20220922163758.png",
-    "Bachelor/EDA.md",
-    "Bachelor/Python-guy.md"
+    "Pasted image 20220922163758.png"
   ]
 }
