@@ -66,9 +66,43 @@
                 "source": false
               }
             }
+          },
+          {
+            "id": "a17c01d0580ae8bb",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Bachelor/HPC.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "a13784e07fdfae8a",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Bachelor/TODO.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "cbd941558a246a75",
+            "type": "leaf",
+            "state": {
+              "type": "image",
+              "state": {
+                "file": "Pasted image 20221101163359.png"
+              }
+            }
           }
         ],
-        "currentTab": 4
+        "currentTab": 6
       }
     ],
     "direction": "vertical"
@@ -126,7 +160,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Bachelor/Kristian-møder.md",
+                "file": "Bachelor/TODO.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -152,20 +186,17 @@
     "direction": "horizontal",
     "width": 300
   },
-  "ribbon": {
-    "mostRecentAction": ""
-  },
-  "active": "216460cc6f29471b",
+  "active": "a13784e07fdfae8a",
   "lastOpenFiles": [
+    "Bachelor/HPC.md",
     "Bachelor/Model parameters.md",
-    "Bachelor/Dimitrios meets.md",
+    "Pasted image 20221101163359.png",
     "Bachelor/Kristian-møder.md",
+    "Pasted image 20221031112315.png",
+    "Bachelor/Dimitrios meets.md",
     "Linux/Grafix.md",
     "Linux/System problems.md",
     "Linux/Wine.md",
-    "RemarkableHacks/Document-formatting.md",
-    "network-sketch.jpg",
-    "Pasted image 20220922163849.png",
-    "Pasted image 20220922163758.png"
+    "RemarkableHacks/Document-formatting.md"
   ]
 }

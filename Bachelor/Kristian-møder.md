@@ -226,4 +226,17 @@ Fokus: få styr på de andre ting, som generer.
 	- Plots over dine ti billeder
 	- Baseline til baseline model
 	- Evt. begynd at skriv på afsnittet med metode 
-- 
+
+Martin nævner: 
+- Machine Learning Operations
+	- MLOps
+
+
+8. Semester virker lidt hæftigt 
+	- Videregående billedanalyse er et ret hæftigt kursus (meget implementering, hvis man skal få udbytte) 
+	- Mange af kurserne virker som om at man laver mere end man skal på det her semester 
+	- Måske kan det godt lade sig gøre hvis du beslutter dig for at vælge et af de nemmeste innovationskurser (analytics to action virker også ret nemt)
+
+Overvej at rykke dyb læring tidligt - dvs. 9. semester 
+
+Skriv til KU om regler 
