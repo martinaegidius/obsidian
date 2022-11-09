@@ -2,9 +2,12 @@ General ipynb-procedure
 https://topfarm.pages.windenergy.dtu.dk/cuttingedge/pywake/pywake_ellipsys/master/exercises.html
 
 
+hostname format: 
+n-62-30-5:40000
 
-1. connect through shell: ssh hpc
-4. go to interactive node (voltash, sxm2sh, a100sh)
+
+1. connect through shell: ssh -X hpc
+4. go to interactive node (voltash, sxm2sh, a100sh,,linuxsh)
 5. module load python3/3.10.2
 3. source bachelorenv/bin/activate
 6. Go: jupyter notebook --no-browser --port=40000 --ip=$HOSTNAME

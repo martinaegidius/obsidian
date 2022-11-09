@@ -240,3 +240,40 @@ Martin nævner:
 Overvej at rykke dyb læring tidligt - dvs. 9. semester 
 
 Skriv til KU om regler 
+
+Learning-rate: prøv at lave den mindre 
+
+- Smid median-IOU og mean-IOU ind i tabel 
+- Plot - kun halvdelen 
+- Resultater ned i resultat-afsnit 
+- Træningskurver 
+- Kun en i rapporten - rest i appendix 
+- Helt færdig med alle baselines
+
+
+
+#todo 
+I morgen: behandl resultater af 6_3-modellen. 
+Genskriv resultat-tabel med resultaterne.  Smid mean og median-model ind som to kollonner. 
+Generer plots og smid dem ind i rapport. 
+
+
+Generer alle plots igen og smid dem ind i rapporten. Baseline er herved færdig
+- ca. 5 arbejdstimer - baseline resultater færdige og skrevet ind. Ikke afsnit nødv.
+	- Ny baseline 6,3. 
+	
+- Load KUN layer 1 - hvor mange du skal bruge i første omgang _> hurtigere'
+- vit-del: 15-20 timer bare for at få det til at køre 
+	- FOR ET BILLEDE
+- Lav din gamle model om, så du kan smide latent space ind. [10-15t] 
+	- RESULTATERNE SKAL IKKE VÆRE GODE 
+	- HVIS DU BLIVER FÆRDIG FØR TID: PRØV AT OVERFITTE LØBENDE FOR LÆNGERE SÆT 
+- Metode til det du laver (simultant). ~3 siders mere metode. 
+
+ 
+
+Overfitting-del skal fylde mindre 
+Resultater over i resultater
+
+Tilmelding til kurser KU 
+
