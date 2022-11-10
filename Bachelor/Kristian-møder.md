@@ -253,15 +253,18 @@ Learning-rate: prøv at lave den mindre
 
 
 #todo 
-I morgen: behandl resultater af 6_3-modellen. 
-Genskriv resultat-tabel med resultaterne.  Smid mean og median-model ind som to kollonner. 
-Generer plots og smid dem ind i rapport. 
+
 
 
 Generer alle plots igen og smid dem ind i rapporten. Baseline er herved færdig
 - ca. 5 arbejdstimer - baseline resultater færdige og skrevet ind. Ikke afsnit nødv.
 	- Ny baseline 6,3. 
-	
+	- Status: færdig
+	- Logfiles: results/NL_6_NH_2_final_results
+	- Graphs: 1_fold_results_nl_6_nh_2. Alle resultater for modeller FØR early-stopping 
+	- Models: in NL_6_NH_2_final_results/fullRun
+
+
 - Load KUN layer 1 - hvor mange du skal bruge i første omgang _> hurtigere'
 - vit-del: 15-20 timer bare for at få det til at køre 
 	- FOR ET BILLEDE
@@ -276,4 +279,8 @@ Overfitting-del skal fylde mindre
 Resultater over i resultater
 
 Tilmelding til kurser KU 
+
+Make sure that patchify is rowwise or column-wise. Use a very simple images black triangle. 
+Dim kommentar: 
+1 feature-representation per patch -> linear-interpolate. 
 
