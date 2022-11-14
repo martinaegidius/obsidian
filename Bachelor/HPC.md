@@ -6,7 +6,7 @@ hostname format:
 n-62-30-5:40000
 
 
-1. connect through shell: ssh -X hpc
+1. connect through shell: ssh hpc
 4. go to interactive node (voltash, sxm2sh, a100sh,,linuxsh)
 5. module load python3/3.10.2
 3. source bachelorenv/bin/activate
@@ -24,3 +24,4 @@ hostname is login-node user
 
 
 <h2>Bash-example-file for scheduler</h2>
+

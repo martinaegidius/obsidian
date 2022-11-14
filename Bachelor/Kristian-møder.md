@@ -284,3 +284,9 @@ Make sure that patchify is rowwise or column-wise. Use a very simple images blac
 Dim kommentar: 
 1 feature-representation per patch -> linear-interpolate. 
 
+
+Atm status: You have made a custom load_POET_timm. When running timm
+
+[Errno 2] No such file or directory: '/zhome/ba/f/147212/BA/timm/../eyeFormer//../Data/POETdataset/etData/etData_aeroplane.mat'
+
+Figure out where the extra /../ after eyeFormer comes from. 
