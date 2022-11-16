@@ -285,8 +285,29 @@ Dim kommentar:
 1 feature-representation per patch -> linear-interpolate. 
 
 
-Atm status: You have made a custom load_POET_timm. When running timm
+Status: deep-feature extraction complete. Implement transformer. Takes as input get_deep_seq output. Should implement CLS for xy. May be some sort of ragged implementation then.. 
 
-[Errno 2] No such file or directory: '/zhome/ba/f/147212/BA/timm/../eyeFormer//../Data/POETdataset/etData/etData_aeroplane.mat'
 
-Figure out where the extra /../ after eyeFormer comes from. 
+Ring til læge for i morgen 
+
+Random split sikrer ikke nødvendigvis at bokse er fra samme fordeling, størrelser er fra samme fordeling etc etc 
+- Du kan vise mean-median-box på hhv træn val test og se at de er forskellige (formentlig). 
+
+Næste uge: 
+1. Skrive baseline helt færdig. Bum. 
+~10 timer på at sammenknytte de to model-arme, og rette til, således at det kan træne til overfit. Hvis du ikke kan få den til at overfitte efter 4 timer så skid hul i det ;) 
+- Gør det muligt at køre anden del uafhængigt af første del (gem output af første del og load)
+~2-3 timer bagefter på at kigge lidt på nye resultater 
+
+Hvis tid til overs: 
+
+- Er resultaterne gode nok? 
+	- Kan det give mening?
+	- Hvis overfit ja: kør hele svinet. Hvis nej: få den til det 
+	- Sæt til træning: falder train-loss? nej -> pil ved parametre. 
+		- Når sat igang; hvordan kan du visualisere dine resultater?
+		- Hvad skal du visualisere?
+	- Prioriter at skrive i overleaf, hvis du kan overfitte. Ikke noget pille videre.
+
+
+
