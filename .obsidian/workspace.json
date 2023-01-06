@@ -107,12 +107,8 @@
             "id": "571b1cc4855aeaa4",
             "type": "leaf",
             "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Test.md",
-                "mode": "source",
-                "source": false
-              }
+              "type": "empty",
+              "state": {}
             }
           },
           {
@@ -184,7 +180,6 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Test.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -219,7 +214,7 @@
       "markdown-importer:Open format converter": false
     }
   },
-  "active": "571b1cc4855aeaa4",
+  "active": "2cd13bb732479c70",
   "lastOpenFiles": [
     "POPOS/Desktop entries.md",
     "POPOS/Wineprefix.md",
