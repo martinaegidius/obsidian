@@ -107,8 +107,12 @@
             "id": "571b1cc4855aeaa4",
             "type": "leaf",
             "state": {
-              "type": "empty",
-              "state": {}
+              "type": "markdown",
+              "state": {
+                "file": "Notes for innovation sources.md",
+                "mode": "source",
+                "source": false
+              }
             }
           },
           {
@@ -164,7 +168,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300
+    "width": 300,
+    "collapsed": true
   },
   "right": {
     "id": "636c1cc4ce92e1fb",
@@ -180,6 +185,7 @@
             "state": {
               "type": "backlink",
               "state": {
+                "file": "Notes for innovation sources.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -203,7 +209,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300
+    "width": 201.5
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -214,8 +220,9 @@
       "markdown-importer:Open format converter": false
     }
   },
-  "active": "2cd13bb732479c70",
+  "active": "571b1cc4855aeaa4",
   "lastOpenFiles": [
+    "Test.md",
     "POPOS/Desktop entries.md",
     "POPOS/Wineprefix.md",
     "POPOS/Battery performance steps used.md",
@@ -224,7 +231,6 @@
     "Experiment 1 issues.md",
     "Bachelor/TODO.md",
     "Bachelor/Model parameters.md",
-    "Pasted image 20221101163359.png",
-    "Pasted image 20221031112315.png"
+    "Pasted image 20221101163359.png"
   ]
 }
