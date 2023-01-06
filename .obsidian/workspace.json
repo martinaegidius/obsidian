@@ -97,7 +97,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Bachelor/Kristian-møder.md",
+                "file": "POPOS/Desktop entries.md",
                 "mode": "source",
                 "source": false
               }
@@ -172,7 +172,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Bachelor/Kristian-møder.md",
+                "file": "POPOS/Desktop entries.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -198,17 +198,26 @@
     "direction": "horizontal",
     "width": 300
   },
+  "left-ribbon": {
+    "hiddenItems": {
+      "switcher:Open quick switcher": false,
+      "graph:Open graph view": false,
+      "canvas:Create new canvas": false,
+      "command-palette:Open command palette": false,
+      "markdown-importer:Open format converter": false
+    }
+  },
   "active": "b4effba7725d4d8e",
   "lastOpenFiles": [
-    "Bachelor/HPC.md",
+    "POPOS/Wineprefix.md",
+    "POPOS/Battery performance steps used.md",
     "Bachelor/Kristian-møder.md",
+    "Bachelor/HPC.md",
     "Experiment 1 issues.md",
     "Bachelor/TODO.md",
     "Bachelor/Model parameters.md",
     "Pasted image 20221101163359.png",
     "Pasted image 20221031112315.png",
-    "Bachelor/Dimitrios meets.md",
-    "Linux/Grafix.md",
-    "Linux/System problems.md"
+    "Bachelor/Dimitrios meets.md"
   ]
 }
