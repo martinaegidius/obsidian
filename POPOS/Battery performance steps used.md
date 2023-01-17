@@ -22,5 +22,5 @@ sudo auto-cpufreq --live
 Disabled pop-os system76 Power (Gnome extensions)
 
 
-
+added auto-cpufreq service to startup, is installed as snap; checck status by issuing: 
 systemctl status snap.auto-cpufreq.service.service
