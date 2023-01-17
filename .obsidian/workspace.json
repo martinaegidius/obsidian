@@ -109,7 +109,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Notes for innovation sources.md",
+                "file": "POPOS/Battery performance steps used.md",
                 "mode": "source",
                 "source": false
               }
@@ -168,8 +168,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300,
-    "collapsed": true
+    "width": 300
   },
   "right": {
     "id": "636c1cc4ce92e1fb",
@@ -185,7 +184,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Notes for innovation sources.md",
+                "file": "POPOS/Battery performance steps used.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -222,6 +221,7 @@
   },
   "active": "571b1cc4855aeaa4",
   "lastOpenFiles": [
+    "Notes for innovation sources.md",
     "Test.md",
     "POPOS/Desktop entries.md",
     "POPOS/Wineprefix.md",
@@ -230,7 +230,6 @@
     "Bachelor/HPC.md",
     "Experiment 1 issues.md",
     "Bachelor/TODO.md",
-    "Bachelor/Model parameters.md",
-    "Pasted image 20221101163359.png"
+    "Bachelor/Model parameters.md"
   ]
 }
