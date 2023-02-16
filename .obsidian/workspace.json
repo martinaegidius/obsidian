@@ -116,6 +116,18 @@
             }
           },
           {
+            "id": "1e5f0ea4214a4f8e",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "POPOS/System logs.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
             "id": "cbd941558a246a75",
             "type": "leaf",
             "state": {
@@ -126,7 +138,7 @@
             }
           }
         ],
-        "currentTab": 8
+        "currentTab": 9
       }
     ],
     "direction": "vertical"
@@ -184,7 +196,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "POPOS/Battery performance steps used.md",
+                "file": "POPOS/System logs.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -219,13 +231,13 @@
       "markdown-importer:Open format converter": false
     }
   },
-  "active": "571b1cc4855aeaa4",
+  "active": "2cd13bb732479c70",
   "lastOpenFiles": [
+    "POPOS/Battery performance steps used.md",
     "Notes for innovation sources.md",
     "Test.md",
     "POPOS/Desktop entries.md",
     "POPOS/Wineprefix.md",
-    "POPOS/Battery performance steps used.md",
     "Bachelor/Kristian-møder.md",
     "Bachelor/HPC.md",
     "Experiment 1 issues.md",
