@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Bachelor/Dimitrios meets.md",
+                "file": "POPOS/Battery performance steps used.md",
                 "mode": "source",
                 "source": false
               }
@@ -137,8 +137,7 @@
               }
             }
           }
-        ],
-        "currentTab": 9
+        ]
       }
     ],
     "direction": "vertical"
@@ -196,7 +195,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "POPOS/System logs.md",
+                "file": "POPOS/Battery performance steps used.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -231,8 +230,9 @@
       "markdown-importer:Open format converter": false
     }
   },
-  "active": "2cd13bb732479c70",
+  "active": "d259c6adf99c872f",
   "lastOpenFiles": [
+    "Bachelor/Dimitrios meets.md",
     "POPOS/Battery performance steps used.md",
     "Notes for innovation sources.md",
     "Test.md",
@@ -241,7 +241,6 @@
     "Bachelor/Kristian-møder.md",
     "Bachelor/HPC.md",
     "Experiment 1 issues.md",
-    "Bachelor/TODO.md",
-    "Bachelor/Model parameters.md"
+    "Bachelor/TODO.md"
   ]
 }
