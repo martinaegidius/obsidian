@@ -20,6 +20,18 @@
             }
           },
           {
+            "id": "3fc8c3df4433803d",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "POPOS/Battery performance steps used.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
             "id": "92b32e577e698811",
             "type": "leaf",
             "state": {
@@ -137,7 +149,8 @@
               }
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -230,14 +243,14 @@
       "markdown-importer:Open format converter": false
     }
   },
-  "active": "d259c6adf99c872f",
+  "active": "3fc8c3df4433803d",
   "lastOpenFiles": [
+    "POPOS/Desktop entries.md",
+    "POPOS/Wineprefix.md",
     "Bachelor/Dimitrios meets.md",
     "POPOS/Battery performance steps used.md",
     "Notes for innovation sources.md",
     "Test.md",
-    "POPOS/Desktop entries.md",
-    "POPOS/Wineprefix.md",
     "Bachelor/Kristian-møder.md",
     "Bachelor/HPC.md",
     "Experiment 1 issues.md",
