@@ -32,6 +32,18 @@
             }
           },
           {
+            "id": "66db729b1c9d752e",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "POPOS/Battery performance steps used.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
             "id": "92b32e577e698811",
             "type": "leaf",
             "state": {
@@ -150,7 +162,7 @@
             }
           }
         ],
-        "currentTab": 1
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -243,10 +255,11 @@
       "markdown-importer:Open format converter": false
     }
   },
-  "active": "3fc8c3df4433803d",
+  "active": "66db729b1c9d752e",
   "lastOpenFiles": [
-    "POPOS/Desktop entries.md",
     "POPOS/Wineprefix.md",
+    "Linux/System problems.md",
+    "POPOS/Desktop entries.md",
     "Bachelor/Dimitrios meets.md",
     "POPOS/Battery performance steps used.md",
     "Notes for innovation sources.md",
