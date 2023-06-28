@@ -49,7 +49,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "POPOS/Battery performance steps used.md",
+                "file": "Linux/Desktop customization.md",
                 "mode": "source",
                 "source": false
               }
@@ -240,7 +240,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "POPOS/Battery performance steps used.md",
+                "file": "Linux/Desktop customization.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -277,11 +277,15 @@
   },
   "active": "23c692e8ac356dfc",
   "lastOpenFiles": [
-    "POPOS/Wineprefix.md",
-    "Linux/System problems.md",
-    "POPOS/Desktop entries.md",
-    "Bachelor/Dimitrios meets.md",
     "POPOS/Battery performance steps used.md",
+    "POPOS/Desktop entries.md",
+    "POPOS/System logs.md",
+    "POPOS/Wineprefix.md",
+    "Linux/Wine.md",
+    "Linux/System problems.md",
+    "Linux/Grafix.md",
+    "Linux/Desktop customization.md",
+    "Bachelor/Dimitrios meets.md",
     "Notes for innovation sources.md",
     "Test.md",
     "Bachelor/Kristian-møder.md",
