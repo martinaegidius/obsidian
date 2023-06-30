@@ -44,12 +44,12 @@
             }
           },
           {
-            "id": "23c692e8ac356dfc",
+            "id": "09d90b20f5b807de",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Linux/Desktop customization.md",
+                "file": "POPOS/Customization.md",
                 "mode": "source",
                 "source": false
               }
@@ -62,30 +62,6 @@
               "type": "markdown",
               "state": {
                 "file": "Bachelor/Kristian-møder.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "8c3ce9a8a941f38d",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Linux/System problems.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "3a026ef6040848f0",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Linux/System problems.md",
                 "mode": "source",
                 "source": false
               }
@@ -240,7 +216,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Linux/Desktop customization.md",
+                "file": "POPOS/Customization.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -275,16 +251,17 @@
       "markdown-importer:Open format converter": false
     }
   },
-  "active": "23c692e8ac356dfc",
+  "active": "09d90b20f5b807de",
   "lastOpenFiles": [
     "POPOS/Battery performance steps used.md",
-    "POPOS/Desktop entries.md",
-    "POPOS/System logs.md",
-    "POPOS/Wineprefix.md",
+    "POPOS/Customization.md",
+    "Linux/Desktop customization.md",
     "Linux/Wine.md",
     "Linux/System problems.md",
     "Linux/Grafix.md",
-    "Linux/Desktop customization.md",
+    "POPOS/Wineprefix.md",
+    "POPOS/Desktop entries.md",
+    "POPOS/System logs.md",
     "Bachelor/Dimitrios meets.md",
     "Notes for innovation sources.md",
     "Test.md",
