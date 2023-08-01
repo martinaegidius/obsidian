@@ -56,6 +56,42 @@
             }
           },
           {
+            "id": "d635dcc40254654f",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "POPOS/Ableton log.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "b172e920776c5345",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "POPOS/Conda Environments.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "24e2d7abeeebbb69",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "POPOS/Ableton log.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
             "id": "92b32e577e698811",
             "type": "leaf",
             "state": {
@@ -150,7 +186,7 @@
             }
           }
         ],
-        "currentTab": 3
+        "currentTab": 6
       }
     ],
     "direction": "vertical"
@@ -216,7 +252,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "POPOS/Customization.md",
+                "file": "POPOS/Ableton log.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -251,10 +287,13 @@
       "markdown-importer:Open format converter": false
     }
   },
-  "active": "09d90b20f5b807de",
+  "active": "24e2d7abeeebbb69",
   "lastOpenFiles": [
-    "POPOS/Battery performance steps used.md",
+    "Flask notes.md",
+    "POPOS/Conda Environments.md",
+    "POPOS/Ableton log.md",
     "POPOS/Customization.md",
+    "POPOS/Battery performance steps used.md",
     "Linux/Desktop customization.md",
     "Linux/Wine.md",
     "Linux/System problems.md",
