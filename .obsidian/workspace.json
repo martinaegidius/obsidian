@@ -92,6 +92,28 @@
             }
           },
           {
+            "id": "dbb1ec806baee093",
+            "type": "leaf",
+            "state": {
+              "type": "release-notes",
+              "state": {
+                "currentVersion": "1.3.7"
+              }
+            }
+          },
+          {
+            "id": "398e6d1e221151ae",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "POPOS/League installation.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
             "id": "92b32e577e698811",
             "type": "leaf",
             "state": {
@@ -186,7 +208,7 @@
             }
           }
         ],
-        "currentTab": 6
+        "currentTab": 8
       }
     ],
     "direction": "vertical"
@@ -252,7 +274,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "POPOS/Ableton log.md",
+                "file": "POPOS/League installation.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -287,8 +309,9 @@
       "markdown-importer:Open format converter": false
     }
   },
-  "active": "24e2d7abeeebbb69",
+  "active": "398e6d1e221151ae",
   "lastOpenFiles": [
+    "POPOS/League installation.md",
     "Flask notes.md",
     "POPOS/Conda Environments.md",
     "POPOS/Ableton log.md",
