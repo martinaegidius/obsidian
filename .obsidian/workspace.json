@@ -114,6 +114,18 @@
             }
           },
           {
+            "id": "0f9a14d912647822",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "RemarkableHacks/Document-formatting.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
             "id": "92b32e577e698811",
             "type": "leaf",
             "state": {
@@ -208,7 +220,7 @@
             }
           }
         ],
-        "currentTab": 8
+        "currentTab": 9
       }
     ],
     "direction": "vertical"
@@ -274,7 +286,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "POPOS/Battery performance steps used.md",
+                "file": "RemarkableHacks/Document-formatting.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -309,14 +321,17 @@
       "markdown-importer:Open format converter": false
     }
   },
-  "active": "398e6d1e221151ae",
+  "active": "0f9a14d912647822",
   "lastOpenFiles": [
+    "POPOS/Battery performance steps used.md",
+    "Borkhavn/Django tutorial.md",
+    "Untitled",
+    "Borkhavn",
     "POPOS/League installation.md",
     "Flask notes.md",
     "POPOS/Conda Environments.md",
     "POPOS/Ableton log.md",
     "POPOS/Customization.md",
-    "POPOS/Battery performance steps used.md",
     "Linux/Desktop customization.md",
     "Linux/Wine.md",
     "Linux/System problems.md",
