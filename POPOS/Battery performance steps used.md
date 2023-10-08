@@ -45,6 +45,6 @@ Empty when turn-on issues:
 	https://discussion.fedoraproject.org/t/incorrect-battery-charge-display-in-gnome/71058/3
 	
 
-	- 
+	
 
 

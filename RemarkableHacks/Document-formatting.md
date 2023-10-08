@@ -44,4 +44,9 @@ When sending local files, note that -r is NOT enabled. Simply use p2r -r path/to
 
 
 
-<h1>
+<h1> Remarkable Templates </h1>
+copying all templates
+`scp -r root@10.11.99.1:/usr/share/remarkable/templates /home/max/Documents/remarkable_templates`
+
+
+
