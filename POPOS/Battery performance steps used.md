@@ -45,6 +45,11 @@ Empty when turn-on issues:
 	https://discussion.fedoraproject.org/t/incorrect-battery-charge-display-in-gnome/71058/3
 	
 
-	
+
+
+Log oct 8th 2023
+- extended charge threshold to 98%
+- Enabled powertop.service, which hopefully helps out battery issues
+
 
 
