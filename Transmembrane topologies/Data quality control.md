@@ -27,7 +27,8 @@ Try finding rest using other versions -> they dont exist. Saved missing proteins
 **Felix message**: 
 *i.e. what I would do using vanilla pytorch is.  provided*
 - [x] 1.) get all the alphafold pdb files downloaded in a directory  
-- [ ] 2.) write a torch.utils.data.Dataset class that consumes the train data json file + the pdb file directory, and returns protein graphs + labels (this should leverage graphein and be written in a way that it's compatible with proteins.sh encoders)  
+- [x] 2.) write a torch.utils.data.Dataset class that consumes the train data json file + the pdb file directory,  +
+- [ ] and returns protein graphs + labels (this should leverage graphein and be written in a way that it's compatible with proteins.sh encoders)  
 - [ ] 3.) Define a nn.module prediction model that takes protein graphs as input and returns topology label sequences as output. the encoder would be a submodule of that nn.module  
 - [ ] 4.) Write a train loop that uses your dataset + the module + the metrics that are provided
 
