@@ -61,7 +61,7 @@ Inspecting gearnet:  https://github.com/a-r-j/ProteinWorkshop/blob/main/proteinw
         - ``x`` Positions (shape ``[num_nodes, 3]``)
         - ``edge_index`` Edge indices (shape ``[2, num_edges]``)
         - ``edge_type`` Edge types (shape ``[num_edges]``)
-        - ``edge_attr`` Edge attributes (shape ``[num_edges, num_edge_features]``)
+    GearNet    - ``edge_attr`` Edge attributes (shape ``[num_edges, num_edge_features]``)
         - ``num_nodes`` Number of nodes (int)
         - ``batch`` Batch indices (shape ``[num_nodes]``)
 
@@ -75,3 +75,28 @@ So we need to:
 		1. Check what it returns - do we get the features which graphein module needs? 
 
 #question: I want to use gearnet. I am having a really hard time figuring out how the data should be formatted using graphein as the documentation is so sparse. 
+#question Should we generate predictions for missing/wrongly sequenced proteins? 
+
+
+
+#meetingNotes:
+- Graphein and protein-workshop is written by same guy. So ProteinBatch should be the same as in Graphein ("Why would he make life harder for himself")
+- You were right; get_edge_features accesses edges of a graph. Therefore, at some point beforehand a featurization-scheme has been called beforehand
+- All models are a type of BenchmarkModel - that is the idea behind protein-workshop, as it is so modular: https://github.com/a-r-j/ProteinWorkshop/blob/main/proteinworkshop/models/base.py. It can be accessed in models/base.py
+	- Here there is a function featuriser, and a class BenchmarkModel of which GearNet will be a subtype 
+- Felix idea: download the package, use a downstream task on a pretrained model, his suggestion: try with the following configuration
+	- https://proteins.sh/quickstart_component/downstream.html
+![[Screenshot from 2023-11-09 13-28-37.png]]
+Use breakpoints/hooks to figure out at which point the data looks in which way to figure out the feature-scheme
+
+- Note on missing data: absolutely no problem, just exclude them 
+- Note about calculating edge features during each forward: absolutely no problem, is quite cheap computationally compared to maintaining modularity when using different edge-features etc.
+- Regarding HPC: use it when you have a script etc., but beware that geometric can be a pain in the ass - segmentation faults etc. 
+	- Felix instantiated a new conda environment, installed in that environment (even though they tell you not to ;) ) 
+#todo: install protein-workshop pip install proteinworkshop --no-cache-dir. Beware installation instructions are built for linux nvidia cuda, so you probably need to run with GFX enabled. 
+
+
+# IN CASE ALL GOES WRONG
+IF YOU STILL CANT FIGURE IT OUT: OPEN AN ISSUE ON GITHUB, THE GUY PROBABLY CAN ANSWER IT WITHOUT TOO MUCH THOUGHT
+
+
