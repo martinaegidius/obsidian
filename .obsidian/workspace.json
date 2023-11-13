@@ -138,6 +138,18 @@
             }
           },
           {
+            "id": "ec320a43e5e94c81",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Multivariat statistik/Todos.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
             "id": "92b32e577e698811",
             "type": "leaf",
             "state": {
@@ -232,7 +244,7 @@
             }
           }
         ],
-        "currentTab": 10
+        "currentTab": 11
       }
     ],
     "direction": "vertical"
@@ -261,7 +273,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "tag:#todo",
+                "query": "",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -278,8 +290,7 @@
               "state": {}
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "horizontal",
@@ -299,7 +310,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Transmembrane topologies/Data quality control.md",
+                "file": "Multivariat statistik/Todos.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -334,10 +345,12 @@
       "markdown-importer:Open format converter": false
     }
   },
-  "active": "811fc1687003a39e",
+  "active": "ec320a43e5e94c81",
   "lastOpenFiles": [
-    "Screenshot from 2023-11-09 13-28-37.png",
     "Transmembrane topologies/Data quality control.md",
+    "Multivariat statistik/Todos.md",
+    "Multivariat statistik",
+    "Screenshot from 2023-11-09 13-28-37.png",
     "POPOS/Battery performance steps used.md",
     "Transmembrane topologies",
     "POPOS/System logs.md",
