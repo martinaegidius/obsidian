@@ -96,7 +96,16 @@ Use breakpoints/hooks to figure out at which point the data looks in which way t
 #todo: install protein-workshop pip install proteinworkshop --no-cache-dir. Beware installation instructions are built for linux nvidia cuda, so you probably need to run with GFX enabled. 
 
 
-# IN CASE ALL GOES WRONG
-IF YOU STILL CANT FIGURE IT OUT: OPEN AN ISSUE ON GITHUB, THE GUY PROBABLY CAN ANSWER IT WITHOUT TOO MUCH THOUGHT
+
+- it seems it works now with SchNet
+	- I will proceed with this, just to get something done
+- [x] Need to make a pipe which reads a protein from pdb, throws to protein-tensor and followingly can be converted to a Proteinbatch() with neccessary batch-attributes
+- [x] Fix that process shouldn't be called for already processed proteins
+- [ ] Read up on graph encoder/decoder 
+- [ ] Decoders: multiclass node classification present in https://proteins.sh/configs/task.html 
+- [x] Begin installing environment on HPC 
+- [ ] Check that environment works 
 
 
+#question When using batches, as far as I understand torch geometric treats a batch as a large disconnected graph, ref: https://pytorch-geometric.readthedocs.io/en/latest/generated/torch_geometric.data.Batch.html
+- How should I understand this when decoding?
