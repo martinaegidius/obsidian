@@ -109,3 +109,25 @@ Use breakpoints/hooks to figure out at which point the data looks in which way t
 
 #question When using batches, as far as I understand torch geometric treats a batch as a large disconnected graph, ref: https://pytorch-geometric.readthedocs.io/en/latest/generated/torch_geometric.data.Batch.html
 - How should I understand this when decoding?
+
+#meeting-notes
+- Linear decoder is no issue. Remember vector-product
+- See if you can fit using a simple linear decoder
+- Need larger hidden dimension - impossible to infer 5 values from 1 value
+- When running train / val / test splits, just use the val for early stopping - other params stay constant from prototype training split 
+
+
+- [x] Add Batch-functionality, and train on a small batched subsample (16) 
+	- [x] Issues arose due to the lazy layers of the SchNet model. Before, output was biased toward classes 0 and 5, which is highly improbable at random. Added xavier_init for dense decoder and forwarded an example batch through encoder-part to initialize the weights. Still, they are very biased towards 5 for some reason.  
+	- [x] Fixed by using xavier normal init
+
+- [x] Overfit a single sample: lr = 0.001, hn = 32, 30 epochs
+- [ ] Overfit four samples: batch_sz = 2, lr = 0.001, hn = 64, 100 epochs, accuracy 98.2, last 5 points avg. loss 0.199
+	- [x] Trying lr = 0.0001 for increased gradient stability -> became unstable 
+	- [ ] Trying batch_sz = 1 as batch size 2 is a bit odd for so small dset  -> overfit possible, e-05 at epoch 75. dset acc 100%
+- [ ] Increase size to 16, batch_sz = 4 - after 87 epochs accuracy 0.84, mean loss = 0.47. 
+	- Note: execution very slow, need to run on HPC
+- Added LSTM support, it seems bidirectional is superior. Slow convergence at current settings. 
+
+
+#todo: Next step: fire up on HPC/colab to finetune for larger batches and trainingset sizes 
