@@ -12,4 +12,27 @@
 
 - [x] uploaded files to colab
 - [x] Built pipeline support in colab
-	- [ ] Need cuda-tensor support, probably will throw an error
+	- [x] Need cuda-tensor support, probably will throw an error
+
+
+setup tracking pipe BUT found issue 
+- [x] Proteins which have mismatches are not excluded from the dset 
+- [ ] Trying to fix it currently on colab - run assure loop for all loaders when finished regenerating dset
+- [x] Check that there are no overlaps of ids in loaders
+
+To-do today: 
+- [x] Fix above issues
+- [ ] Figure out why we get loss spikes 
+- [ ] Modularize the shit out of it and make it runnable on HPC 
+- [ ] Increase overfitting set up to full set in increments of 400 or the likes. 
+	- [x] Check how batch impacts it - in small overfitting experiments it fucked up 
+- [x] Change accuracy metric
+
+
+90 epochs are enough for overfitting 64 samples approximately. After 250 epochs, we have loss < 1/1000. 
+
+
+HPC workflow: 
+1. conda activate ...
+2. batch-sub 
+3. scp experiment results
