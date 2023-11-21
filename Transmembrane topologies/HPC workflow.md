@@ -16,3 +16,8 @@ module load python3/3.10.12
 source transmembrane/bin/activate
 
 
+
+<h1> Resource inspection </h1>
+https://www.hpc.dtu.dk/?page_id=4976
+
+

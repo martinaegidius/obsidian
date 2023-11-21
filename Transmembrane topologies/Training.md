@@ -31,6 +31,8 @@ To-do today:
 
 90 epochs are enough for overfitting 64 samples approximately. After 250 epochs, we have loss < 1/1000. 
 
+It seems the callscript calls wrong trainer somehow. At least params are not saved, and accuracies are constant. In additiom eval-every is  not used correctly - DEBUG 
+
 
 HPC workflow: 
 1. conda activate ...
