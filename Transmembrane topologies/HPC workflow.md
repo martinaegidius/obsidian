@@ -13,7 +13,7 @@ Data-directory: /dtu/blackhole/0c/147212/data/graphein_downloads/{processed,raw}
 
 <h1> Environment </h1>
 module load python3/3.10.12
-source transmembrane/bin/activate
+source $HOME/transmembrane/bin/activate
 
 
 
@@ -21,3 +21,12 @@ source transmembrane/bin/activate
 https://www.hpc.dtu.dk/?page_id=4976
 
 
+Clean up your .err and .out 
+Check it is the correct files
+```
+find . -name "*.err" -type f
+```
+Delete the files
+```
+find . -name "*.err" -type f -delete
+```

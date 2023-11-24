@@ -268,9 +268,21 @@
                 "source": false
               }
             }
+          },
+          {
+            "id": "358721fb14b6297d",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Transmembrane topologies/Training.md",
+                "mode": "source",
+                "source": false
+              }
+            }
           }
         ],
-        "currentTab": 21
+        "currentTab": 22
       }
     ],
     "direction": "vertical"
@@ -371,10 +383,12 @@
       "markdown-importer:Open format converter": false
     }
   },
-  "active": "4d98d0fb51ca7f4a",
+  "active": "358721fb14b6297d",
   "lastOpenFiles": [
     "Transmembrane topologies/HPC workflow.md",
     "Transmembrane topologies/Training.md",
+    "C++/Notes.md",
+    "C++",
     "Pasted image 20221101163359.png",
     "Transmembrane topologies/Data quality control.md",
     "Multivariat statistik/Todos.md",
@@ -402,7 +416,6 @@
     "Test.md",
     "Bachelor/Kristian-møder.md",
     "Bachelor/HPC.md",
-    "Experiment 1 issues.md",
-    "Bachelor/TODO.md"
+    "Experiment 1 issues.md"
   ]
 }
