@@ -108,3 +108,6 @@ Metrics:
 - ROC 
 - AUPRC
 
+
+Added in batch-support with linearly scaled learning rate. Convergence is much better now for batch-size e.g. 16. But ran it for 32, and it seems gradients died??? Tried scaling with sqrt(k) instead for batches :) -> current experiment
+
