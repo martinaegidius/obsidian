@@ -115,3 +115,6 @@ Added in batch-support with linearly scaled learning rate. Convergence is much b
 
 #TODO add the accuracy results to the training-script for quicker comparisons
 Currently it is working fine for type prediction, but it is having a really hard time getting the overlap accuracy to be good! How can we solve this? 
+- Trying with more features, as given in https://openreview.net/pdf?id=sTYuRVrdK3 the "INTERMEDIATE" type should work better (active)
+- Trying to download pre-trained weights for the inverse-folding task to see if that helps (need to see how these weights translate to SchNet)
+- Using dimenet instead should be easy - same batch-attributes, consider this if above still doesn't work 
