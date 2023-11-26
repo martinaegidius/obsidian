@@ -111,3 +111,7 @@ Metrics:
 
 Added in batch-support with linearly scaled learning rate. Convergence is much better now for batch-size e.g. 16. But ran it for 32, and it seems gradients died??? Tried scaling with sqrt(k) instead for batches :) -> current experiment
 
+
+
+#TODO add the accuracy results to the training-script for quicker comparisons
+Currently it is working fine for type prediction, but it is having a really hard time getting the overlap accuracy to be good! How can we solve this? 
