@@ -118,3 +118,10 @@ Currently it is working fine for type prediction, but it is having a really hard
 - Trying with more features, as given in https://openreview.net/pdf?id=sTYuRVrdK3 the "INTERMEDIATE" type should work better (active)
 - Trying to download pre-trained weights for the inverse-folding task to see if that helps (need to see how these weights translate to SchNet)
 - Using dimenet instead should be easy - same batch-attributes, consider this if above still doesn't work 
+
+
+Sudden explosion steps taken:
+Added gradient clipping, trying with norm of 10 
+Changed seed
+Added early stopping
+
