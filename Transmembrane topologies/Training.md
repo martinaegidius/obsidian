@@ -124,4 +124,28 @@ Sudden explosion steps taken:
 Added gradient clipping, trying with norm of 10 
 Changed seed
 Added early stopping
+- Running LSTMB 512 without clipping and printing every epoch to obtain gradient norms to see what seems in the "healthy" range
+- It seems in general to be between 1 and 3.5 for [32,32] network. Sometimes sudden explosion to 9.999 
+	- Set clip on 5 
+	- We try a clip of 5 on 512 512 
+	- Additionally added layernorm 
+
+
+
+
+#Note: I fucked up the cfg, so that is why it doesn't run the experiments I asked it to. Fixed with unique cfg ID. Try to re-run with multiple sizes. 
+
+Running cross-experiment with grad clip of 5, sizes [128,512], with normalization
+
+
+- GCS 512, LSTM 128 already has grads exceeding 5 (we see the clipped ones) - it seems the normal range is below 2
+
+
+- Need to check the is topologies equal function. It seems odd what is categorized as equal vs. inequal tbh
+	- Saved 2 csv's in transmembrane topologies. Check tomorrow
+		Consider re-implementing overlap criterion. A single topology-substitution makes the overlap check equal false, as the lengths of the of the sequences is different. 
+		- But I think it should do that. Obviously, it's because the model is way to noisy. 
+			https://stackoverflow.com/questions/14128763/how-to-find-the-overlap-between-2-sequences-and-return-it
+			
+- Consider adding dropout to LSTM 
 
