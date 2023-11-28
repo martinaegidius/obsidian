@@ -149,3 +149,8 @@ Running cross-experiment with grad clip of 5, sizes [128,512], with normalizatio
 			
 - Consider adding dropout to LSTM 
 
+
+#question Does P not matter for protein type classification?
+#question batching in LSTM 
+
+
