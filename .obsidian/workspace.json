@@ -292,9 +292,21 @@
                 "source": false
               }
             }
+          },
+          {
+            "id": "db99e511a5db311a",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Transmembrane topologies/Training packed.md",
+                "mode": "source",
+                "source": false
+              }
+            }
           }
         ],
-        "currentTab": 23
+        "currentTab": 24
       }
     ],
     "direction": "vertical"
@@ -360,7 +372,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Transmembrane topologies/Training.md",
+                "file": "Transmembrane topologies/Training packed.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -395,10 +407,11 @@
       "markdown-importer:Open format converter": false
     }
   },
-  "active": "579729f1f924f16f",
+  "active": "2cd13bb732479c70",
   "lastOpenFiles": [
-    "Transmembrane topologies/Implement metrics.md",
     "Transmembrane topologies/Training.md",
+    "Transmembrane topologies/Training packed.md",
+    "Transmembrane topologies/Implement metrics.md",
     "Transmembrane topologies/HPC workflow.md",
     "C++/Notes.md",
     "C++",
@@ -427,7 +440,6 @@
     "Bachelor/Dimitrios meets.md",
     "Notes for innovation sources.md",
     "Test.md",
-    "Bachelor/Kristian-møder.md",
-    "Bachelor/HPC.md"
+    "Bachelor/Kristian-møder.md"
   ]
 }
