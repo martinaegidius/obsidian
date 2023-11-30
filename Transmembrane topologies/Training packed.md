@@ -54,3 +54,25 @@ LSTM: 128,
 Looking at curves, logical-bird is the better one.
 
 Waiting for results for 4 layers.
+Untill now 4 layers seem promising, but we loose some SP accuracy. 
+
+
+Diagnostics
+Batch:
+We choose batch size 32 - it seems that larger batch-sizez favour globular accuracy and lower tm accuracies (probably due to the inbalanced dataset, ie. fewer tm samples in each batch -> TM gradients become diluted)
+Dropout:
+There may be slight indication that dropout is a good idea if we control validation more often. But overfitting is not too big of an issue - sequences are quite similar in train and test-split.
+
+Gradients: seem on average more well-behaved using smaller LSTM size, GCs64 LSTM128
+
+Following configurations show promise both regarding val loss and val overlap
+GCSize: 128, LSTMSize: 512 (was stopped early but learned well, already within 100 epochs comparable val loss and accuracy, lower overlap accuracy)
+GCSize: 64, LSTMSize: 512 (winner after 150 epochs)	
+GCSize: 64, LSTMSize: 128 (second place)
+
+
+Num-layers: seems that likely-brook is best on all performance metrics of interest. 
+	Ie. 64x128x4, batch_sz = 32 
+
+
+
