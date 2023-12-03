@@ -304,9 +304,21 @@
                 "source": false
               }
             }
+          },
+          {
+            "id": "55951d8a26af92b7",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Transmembrane topologies/Training packed.md",
+                "mode": "source",
+                "source": false
+              }
+            }
           }
         ],
-        "currentTab": 24
+        "currentTab": 25
       }
     ],
     "direction": "vertical"
@@ -352,7 +364,8 @@
               "state": {}
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "horizontal",
@@ -407,11 +420,14 @@
       "markdown-importer:Open format converter": false
     }
   },
-  "active": "db99e511a5db311a",
+  "active": "55951d8a26af92b7",
   "lastOpenFiles": [
+    "Transmembrane topologies/Last meeting questions.md",
+    "Pasted image 20231130121357.png",
+    "Pasted image 20231130110510.png",
+    "Transmembrane topologies/Training packed.md",
     "POPOS/Battery performance steps used.md",
     "Transmembrane topologies/Training.md",
-    "Transmembrane topologies/Training packed.md",
     "Transmembrane topologies/Implement metrics.md",
     "Transmembrane topologies/HPC workflow.md",
     "C++/Notes.md",
@@ -438,8 +454,6 @@
     "POPOS/Wineprefix.md",
     "POPOS/Desktop entries.md",
     "Bachelor/Dimitrios meets.md",
-    "Notes for innovation sources.md",
-    "Test.md",
-    "Bachelor/Kristian-møder.md"
+    "Notes for innovation sources.md"
   ]
 }
