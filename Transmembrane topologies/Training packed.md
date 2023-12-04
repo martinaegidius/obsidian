@@ -78,3 +78,10 @@ Num-layers: seems that likely-brook is best on all performance metrics of intere
 
 <h1> Conclusion: we choose likely-brook-33 architecture </h1>
 
+
+
+Best ones: 
+genial-resonance-13
+fanciful-music-9
+volcanic-mountain-7
+likely-brook-33
