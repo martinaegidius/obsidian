@@ -85,3 +85,11 @@ genial-resonance-13
 fanciful-music-9
 volcanic-mountain-7
 likely-brook-33
+
+
+
+
+Update: after realizing overfit-issue
+- Breezy-yogurt actually should be the most fair one
+- weightdecay = 0.001
+- dropout = 0.1

@@ -311,7 +311,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Transmembrane topologies/Training packed.md",
+                "file": "Transmembrane topologies/HPC workflow.md",
                 "mode": "source",
                 "source": false
               }
@@ -385,7 +385,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Transmembrane topologies/Training packed.md",
+                "file": "Transmembrane topologies/HPC workflow.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -422,10 +422,11 @@
   },
   "active": "55951d8a26af92b7",
   "lastOpenFiles": [
+    "Untitled.canvas",
+    "Transmembrane topologies/Training packed.md",
     "Transmembrane topologies/Last meeting questions.md",
     "Pasted image 20231130121357.png",
     "Pasted image 20231130110510.png",
-    "Transmembrane topologies/Training packed.md",
     "POPOS/Battery performance steps used.md",
     "Transmembrane topologies/Training.md",
     "Transmembrane topologies/Implement metrics.md",
