@@ -323,7 +323,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Transmembrane topologies/TRAINING WITHOUT OVERFITTING.md",
+                "file": "Transmembrane topologies/HPC workflow.md",
                 "mode": "source",
                 "source": false
               }
@@ -396,7 +396,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Transmembrane topologies/TRAINING WITHOUT OVERFITTING.md",
+                "file": "Transmembrane topologies/HPC workflow.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -431,10 +431,11 @@
       "markdown-importer:Open format converter": false
     }
   },
-  "active": "2cd13bb732479c70",
+  "active": "a94b9fb7b05526c7",
   "lastOpenFiles": [
-    "Transmembrane topologies/Training packed.md",
+    "Transmembrane topologies/Implement metrics.md",
     "Transmembrane topologies/TRAINING WITHOUT OVERFITTING.md",
+    "Transmembrane topologies/Training packed.md",
     "Transmembrane topologies/HPC workflow.md",
     "Untitled.canvas",
     "Transmembrane topologies/Last meeting questions.md",
@@ -442,7 +443,6 @@
     "Pasted image 20231130110510.png",
     "POPOS/Battery performance steps used.md",
     "Transmembrane topologies/Training.md",
-    "Transmembrane topologies/Implement metrics.md",
     "C++/Notes.md",
     "C++",
     "Pasted image 20221101163359.png",
