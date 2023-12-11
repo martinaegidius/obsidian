@@ -54,3 +54,6 @@ BEST RESPLIT CONCLUSION:
 
 
 
+It seems grads are still a bit unstable. In addition, it seems longer training increases tm acc way more. In general it seems good to upsample tm, sptm learns from that. Best results were 1.5,1,1,1,1,1 or 2,1,1,1,1. We check these with different degrees of label-smoothing, batch-size and number of layers. (runs 11/12 after 09:50)
+
+
