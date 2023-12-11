@@ -33,3 +33,24 @@ Waiting to see if anything better comes up
 
 
 
+BEST RESPLIT CONCLUSION: 
+- GCSize 64 for all 
+- LSTMS 128 seems to increase TM but lower classification in some cases.
+	- 4 layers -> better classification, marginally lower tm acc, lower beta.
+	- Let's use 128 with 4 layers, same architecture we converged towards last time. 
+- Weight-decay only helps on TM / TMSP. Use decay = 0
+- Dropout really helps SPTM, beta, overall type and beta. Minor impact on TM acc - keep dropout. 
+- OVERFITTING SEEMS NOT TO BE AN ISSUE
+
+>Running with weighted configurations of dset
+>	Honest-glade-1: generally decent results, need more beta-performance
+>	royal-sound: was good at 120 epochs, seems to fuck up last epochs
+>	- It seems we are overfitting. Consider adding in weight-decay, early-stopping, and lower the number of epochs. 
+>	
+>	
+>	Depending on results, try adding label-smoothing or class-penalties
+>	
+
+
+
+
