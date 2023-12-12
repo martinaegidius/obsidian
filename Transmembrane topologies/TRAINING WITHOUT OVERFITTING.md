@@ -57,3 +57,35 @@ BEST RESPLIT CONCLUSION:
 It seems grads are still a bit unstable. In addition, it seems longer training increases tm acc way more. In general it seems good to upsample tm, sptm learns from that. Best results were 1.5,1,1,1,1,1 or 2,1,1,1,1. We check these with different degrees of label-smoothing, batch-size and number of layers. (runs 11/12 after 09:50)
 
 
+feasible-leaf-53 looks promising. It is the same as generous-aardvark, (clipgrad = 3) but just has no label-smoothing. 
+| metric                        | Feasible-leaf-53 | Generous-aardvark-50 |
+| ----------------------------- | ---------------- | -------------------- |
+| Clip                          | 3                | 3                    |
+| Generally                     | Better           | Worse                |
+| TM                            | Worse            | Better               |
+| Weightmod                     | TM1.5            | Uniform              |
+| Smoothing                     | 0                | 0.5                  |
+| Indication for early stopping | Yes              | Yes                  |
+| 
+
+> So probably if we use smoothing 0.25 or 0.0 with uniform it may be the best. 
+> 	This is already queued on HPC
+
+
+
+
+
+
+|       Clip       |         3        |           3          |
+|     Generally    |      Better      |         Worse        |
+|        TM        |       Worse      |        Better        |
+| Weightmodulation |      TM 1.5      |        Uniform       |
+|     Smoothing    |         0        |          0.5         |
+
+
+
+
+- It is better in general, but tm accuracy is low
+- Completely same beta accuracy 
+- 
+
