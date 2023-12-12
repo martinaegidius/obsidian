@@ -66,26 +66,34 @@ feasible-leaf-53 looks promising. It is the same as generous-aardvark, (clipgrad
 | Weightmod                     | TM1.5            | Uniform              |
 | Smoothing                     | 0                | 0.5                  |
 | Indication for early stopping | Yes              | Yes                  |
-| 
+|                               |                  |                      |
 
 > So probably if we use smoothing 0.25 or 0.0 with uniform it may be the best. 
 > 	This is already queued on HPC
 
 
+| Metric                        | Feasible leaf-53 | Generous-aardvark-50 | Apricot-shape-72 |
+| ----------------------------- | ---------------- | -------------------- | ---------------- |
+| Clip                          | 3                | 3                    | 4                |
+| Generally                     | Better           | Worse                | Best             |
+| TM                            | Worse            | Better               | Best             |
+| Weightmod                     | TM1.5            | Uniform              | TM1.5            |
+| Batch-size                    | 32               | 32                   | 64               |
+| Label-smoothing               | 0                | 0                    | 0.5              |
+| Indication for early stopping | Yes              | Possibly             | Yes (type unstable)      |
+|                               |                  |                      |                  |
 
 
+Fitting more models like apricot, using 3/4 clip, A1.5/U and A2/U and batch-sizes 64,96 with smoothing [0.5,0.75] for 180 epochs (one experiment is equal to apricot - here we changed labelsmoothing to 0.9 to check influence)
 
-
-|       Clip       |         3        |           3          |
-|     Generally    |      Better      |         Worse        |
-|        TM        |       Worse      |        Better        |
-| Weightmodulation |      TM 1.5      |        Uniform       |
-|     Smoothing    |         0        |          0.5         |
-
-
-
-
-- It is better in general, but tm accuracy is low
-- Completely same beta accuracy 
+- Apricot with TM2.0/U (royal-dust-96) -> more unstable accuracies. But they are also very unstable in apricot for type 
+- Good-dew-98: may have too large learning rate after 90 epochs -> schedule?
 - 
+- 
+#done Added script which supports merged run. You just need to set merge_sets = True. Only use for FINAL run!
+
+#TODO Finetune the number of epochs. You should use an early stop criterion which optimizes beta and tm, as beta REALLY oscillates strongly during training. For apricot it seems that beta stabilizes after 132 epochs (LARGE BATCH!), but there is still indication for early-stopping (tmsp and others have not stabilized properly at any point). Probably train for longer. 
+- If we at any point achieve stability and good performance, we train on the train+val-set. Else we need to use the early-stopping criterion.
+- 
+
 
