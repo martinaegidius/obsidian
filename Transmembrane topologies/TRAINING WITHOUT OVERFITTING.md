@@ -97,3 +97,7 @@ Fitting more models like apricot, using 3/4 clip, A1.5/U and A2/U and batch-size
 - 
 
 
+
+It seems learning-rate was way too high. Better results starting lower or going down in LR. new project experiment set over night. Choose one for final training tomorrow. Probably add the val and train set for the final one, as it is too cumbersome to implement an early stopping criterion.
+atomic plasma is good so far
+
