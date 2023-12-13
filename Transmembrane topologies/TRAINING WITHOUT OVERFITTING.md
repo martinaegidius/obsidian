@@ -101,3 +101,11 @@ Fitting more models like apricot, using 3/4 clip, A1.5/U and A2/U and batch-size
 It seems learning-rate was way too high. Better results starting lower or going down in LR. new project experiment set over night. Choose one for final training tomorrow. Probably add the val and train set for the final one, as it is too cumbersome to implement an early stopping criterion.
 atomic plasma is good so far
 
+
+Fresh-pyramid so far best considering val, allthough atomic-plasma-1 is best on test. 
+- Checking larger batch and other configurations
+	- Atomic-plasma-1 (a bit unstable accuracies) or different-energy-30 (a bit more stable and better overall classification)
+- Atomic-plasma queued for merged set 
+	- If results are allright, we go with these. 
+	- While: complete the performance analysis script to gain insights
+	- 
