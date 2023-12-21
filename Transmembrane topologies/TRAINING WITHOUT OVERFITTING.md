@@ -108,4 +108,9 @@ Fresh-pyramid so far best considering val, allthough atomic-plasma-1 is best on 
 - Atomic-plasma queued for merged set 
 	- If results are allright, we go with these. 
 	- While: complete the performance analysis script to gain insights
-	- 
+
+
+
+MCROC is the one which is plotted. This one is multiclassROC
+AUROC score is printed. This one is AUROC 
+
