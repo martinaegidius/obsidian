@@ -352,9 +352,33 @@
                 "source": false
               }
             }
+          },
+          {
+            "id": "cb71e4741ef99119",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "hpc/stuff.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "f839d237df98b5d8",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "hpc/OpenMP.md",
+                "mode": "source",
+                "source": false
+              }
+            }
           }
         ],
-        "currentTab": 28
+        "currentTab": 30
       }
     ],
     "direction": "vertical"
@@ -420,7 +444,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "hpc/stuff.md",
+                "file": "hpc/OpenMP.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -464,10 +488,15 @@
       "markdown-importer:Open format converter": false
     }
   },
-  "active": "4acc0edbda070f21",
+  "active": "f839d237df98b5d8",
   "lastOpenFiles": [
-    "Transmembrane topologies/HPC workflow.md",
+    "hpc/Assignment 2 Poisson Problem.md",
     "hpc/stuff.md",
+    "omp_gprofng_lsf.sub",
+    "hpc/OpenMP.md",
+    "Untitled",
+    "Pasted image 20240109103223.png",
+    "Transmembrane topologies/HPC workflow.md",
     "hpc",
     "Transmembrane topologies/Data quality control.md",
     "POPOS/Battery performance steps used.md",
@@ -498,9 +527,6 @@
     "Linux/Desktop customization.md",
     "Linux/Wine.md",
     "Linux/System problems.md",
-    "Linux/Grafix.md",
-    "POPOS/Wineprefix.md",
-    "POPOS/Desktop entries.md",
-    "Bachelor/Dimitrios meets.md"
+    "Linux/Grafix.md"
   ]
 }
